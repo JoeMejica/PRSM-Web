@@ -25,7 +25,7 @@ SECRET_KEY = '4as!ohbze+reqlrpbv36v#e0f8g7!y2g0lczsm0^wk3c2^y62d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['prsmdance.pythonanywhere.com']
 
 
 # Application definition
