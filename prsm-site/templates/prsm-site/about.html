@@ -1,133 +1,75 @@
+{% extends 'base.html' %}
 {% load static %}
-<!DOCTYPE HTML>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>About | PRSM</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-			<link rel="stylesheet" href="{% static 'prsm-site/assets/css/main.css' %}" />
-		<noscript><link rel="stylesheet" href="{% static 'prsm-site/assets/css/noscript.css' %}" /></noscript>
 
+{% block content %}
+<!-- Main -->
+<div id="main" class="alt">
 
-	</head>
-	<body class="is-preload">
+    <!-- One -->
+    <section id="one">
+        <div class="inner">
+            <header class="major">
+                <h1>About</h1>
+            </header>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+            <p>PRSM came into existence to fill a void in the North Carolina community that grew out of the loss of many
+                of North Carolina’s initial urban dance community organizations, KODACHROME NC, More Than Dance, and
+                Collective Uth. The community was aching for the re-establishment of an entity that could provide a
+                consistent place for the community to build connections and grow together. The founding intention of
+                PRSM was to fulfill that need and eventually bring something that none of our predecessors had done
+                before.
+            </p>
+            <p>The idea for the name “PRSM” arose because a prism can both split a beam of light into many different
+                colors, while also taking this same spectrum and recombining it into one beam of light. This is a
+                metaphor for our organization, which highlights the NC dance community and helps our dancers share
+                outside of NC, while also bringing in dancers from outside NC to help the community grow.
+            </p>
+            <p>INSERT PARAGRAPH ABOUT 4 PILLARS HERE</p>
+            <span class="image main"><img src="{% static 'prsm-site/images/pic11-edit.jpg' %}" alt=""/></span>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="/" class="logo"><strong>PRSM</strong>Dance</a>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+            <div align="center" class="row">
+                <div class="col-3 col-12-medium">
+                    <h3>Knowledge/Foundations</h3>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-							<li><a href="/">Home</a></li>
-							<li><a href="/about">About</a></li>
-							<li><a href="/workshops">Workshops</a></li>
-							<li><a href="/calendar">Calendar</a></li>
-							<li><a href="/multimedia">Multimedia</a></li>
-						</ul>
-						<ul class="actions stacked">
+                    <div align="left">
+                        Establish foundational knowledge and development of various dance styles within
+                        community.<br><br>
+                        Provide opportunity for the community to build its foundational knowledge of the various dance
+                        styles which we pull from
+                    </div>
 
-							<li><a href="/#contact" class="button primary fit">Contact Us</a></li>
+                </div>
+                <div class="col-3 col-12-medium">
+                    <h3>Confidence</h3>
 
+                    <div align="left">
+                        Nurture individuals to increase confidence and personal growth.<br><br>
+                        Foster a space and environment that pushes individuals reach outside their comfort zone for the
+                        sake of personal growth<br><br>
+                    </div>
 
-						</ul>
-					</nav>
+                </div>
+                <div class="col-3 col-12-medium">
+                    <h3>Continual Progression</h3>
 
-				<!-- Main -->
-					<div id="main" class="alt">
+                    <div align="left">
+                        Bring in teachers and host activities that will continually raise the bar with new challenges
+                    </div>
 
-						<!-- One -->
-							<section id="one">
-								<div class="inner">
-									<header class="major">
-										<h1>About</h1>
-									</header>
+                </div>
+                <div class="col-3 col-12-medium">
+                    <h3>Inclusivity</h3>
 
-                                    <p>PRSM came into existence to fill a void in the North Carolina community that grew out of the loss of many of North Carolina’s initial urban dance community organizations, KODACHROME NC, More Than Dance, and Collective Uth. The community was aching for the re-establishment of an entity that could provide a consistent place for the community to build connections and grow together. The founding intention of PRSM was to fulfill that need and eventually bring something that none of our predecessors had done before.
-</p>
-                                    <p>The idea for the name “PRSM” arose because a prism can both split a beam of light into many different colors, while also taking this same spectrum and recombining it into one beam of light. This is a metaphor for our organization, which highlights the NC dance community and helps our dancers share outside of NC, while also bringing in dancers from outside NC to help the community grow.
-</p>
-                                    <p>INSERT PARAGRAPH ABOUT 4 PILLARS HERE</p>
-									<span class="image main"><img src="{% static 'prsm-site/images/pic11-edit.jpg' %}" alt="" /></span>
+                    <div align="left">
+                        <p>Foster a sense of inclusion within the community, between teams, and between individuals</p>
+                    </div>
+                </div>
+            </div>
 
-				<div align="center" class="row">
-                                    <div class="col-3 col-12-medium">
-												<h3>Knowledge/Foundations</h3>
+        </div>
+    </section>
 
-													<div align="left">
-                                                        Establish foundational knowledge and development of various dance styles within community.<br><br>
-                                                        Provide opportunity for the community to build its foundational knowledge of the various dance styles which we pull from
-													</div>
+</div>
 
-											</div>
-                                    <div class="col-3 col-12-medium">
-												<h3>Confidence</h3>
+{% endblock %}
 
-										<div align="left">
-										Nurture individuals to increase confidence and personal growth.<br><br>
-										Foster a space and environment that pushes individuals reach outside their comfort zone for the sake of personal growth<br><br>
-										</div>
-
-											</div>
-                                    <div class="col-3 col-12-medium">
-												<h3>Continual Progression</h3>
-
-													<div align="left">
-                                                     Bring in teachers and host activities that will continually raise the bar with new challenges
-													</div>
-
-											</div>
-                                    <div class="col-3 col-12-medium">
-												<h3>Inclusivity</h3>
-
-														<div align="left">
-                                                        <p>Foster a sense of inclusion within the community, between teams, and between individuals</p>
-														</div>
-											</div>
-					</div>
-
-								</div>
-							</section>
-
-					</div>
-
-
-
-			<!-- Footer -->
-					<footer id="footer">
-						<div align="center" class="inner">
-							<ul class="icons">
-								<li><a href="https://www.facebook.com/PRSMdance/" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="https://www.instagram.com/prsmdance/" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="https://www.youtube.com/channel/UC3YC77cRfZDnfBxulzKLTrg" class="icon alt fa-youtube"><span class="label">YouTube</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; PRSM Dance</li><li>Developer: Joe Mejica
-							</ul>
-						</div>
-					</footer>
-
-			</div>
-
-			<!-- Scripts -->
-			<script src="{% static 'prsm-site/assets/js/jquery.min.js' %}"></script>
-			<script src="{% static 'prsm-site/assets/js/jquery.scrolly.min.js' %}"></script>
-			<script src="{% static 'prsm-site/assets/js/jquery.scrollex.min.js' %}"></script>
-			<script src="{% static 'prsm-site/assets/js/browser.min.js' %}"></script>
-			<script src="{% static 'prsm-site/assets/js/breakpoints.min.js' %}"></script>
-			<script src="{% static 'prsm-site/assets/js/util.js' %}"></script>
-			<script src="{% static 'prsm-site/assets/js/main.js' %}"></script>
-	</body>
-</html>
